@@ -1,8 +1,8 @@
+import com.google.common.collect.HashMultiset;
+import com.google.common.collect.Multiset;
 import org.junit.jupiter.api.Test;
 
-import java.util.Collection;
-import java.util.HashSet;
-import java.util.TreeSet;
+import java.util.*;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -28,5 +28,37 @@ class DataStructuresTest {
       for (int t : c) {
          assertEquals(i++, t);
       }
+   }
+
+   @Test
+   void map1() {
+      Map<String, Integer> m = new TreeMap<>();
+      m.put("A", 3);
+      m.put("C", 1);
+      m.put("B", 2);
+      int i = 3;
+      for (int t : m.values()) {
+         assertEquals(i--, t);
+      }
+   }
+
+   @Test
+   void map2() {
+      Map<String, Integer> m = new LinkedHashMap<>();
+      m.put("A", 3);
+      m.put("C", 2);
+      m.put("B", 1);
+      int i = 3;
+      for (int t : m.values()) {
+         assertEquals(i--, t);
+      }
+   }
+
+   @Test
+   void ds1() {
+      Multiset<String> s = HashMultiset.create();
+      s.add("");
+      s.add("");
+      assertEquals(2, s.count(""));
    }
 }
