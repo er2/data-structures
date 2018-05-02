@@ -1,5 +1,4 @@
-import com.google.common.collect.HashMultiset;
-import com.google.common.collect.Multiset;
+import com.google.common.collect.*;
 import org.junit.jupiter.api.Test;
 
 import java.util.*;
@@ -60,5 +59,14 @@ class DataStructuresTest {
       s.add("");
       s.add("");
       assertEquals(2, s.count(""));
+   }
+
+   @Test
+   void ds2() {
+      RangeMap<String, String> votingLine = TreeRangeMap.create();
+      votingLine.put(Range.lessThan("M"), "Julie");
+      votingLine.put(Range.atLeast("M"), "Sarah");
+      assertEquals("Julie", votingLine.get("Brockman"));
+      assertEquals("Sarah", votingLine.get("Zzyzwicz"));
    }
 }

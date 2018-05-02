@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4373d865-e8fa-4926-b295-c12d26d365af" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/DataStructuresTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/DataStructuresTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -115,8 +111,8 @@
       <file leaf-file-name="DataStructuresTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/DataStructuresTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="625">
-              <caret line="61" column="22" selection-start-line="61" selection-start-column="22" selection-end-line="61" selection-end-column="22" />
+            <state relative-caret-position="572">
+              <caret line="66" column="32" selection-start-line="66" selection-start-column="32" selection-end-line="66" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -519,7 +515,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DataStructuresTest (1)">
+  <component name="RunManager" selected="JUnit.DataStructuresTest.ds2">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -560,13 +556,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="DataStructuresTest.collection2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="data-structures" />
+    <configuration name="DataStructuresTest.ds2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="data-structures_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="DataStructuresTest" />
-      <option name="METHOD_NAME" value="collection2" />
+      <option name="METHOD_NAME" value="ds2" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -673,28 +669,22 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.DataStructuresTest" />
-      <item itemvalue="JUnit.DataStructuresTest.collection2" />
       <item itemvalue="JUnit.DataStructuresTest (1)" />
       <item itemvalue="JUnit.DataStructuresTest.map1" />
       <item itemvalue="JUnit.DataStructuresTest.map2" />
+      <item itemvalue="JUnit.DataStructuresTest.ds2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DataStructuresTest.ds2" />
         <item itemvalue="JUnit.DataStructuresTest (1)" />
         <item itemvalue="JUnit.DataStructuresTest.map1" />
         <item itemvalue="JUnit.DataStructuresTest.map2" />
         <item itemvalue="JUnit.DataStructuresTest" />
-        <item itemvalue="JUnit.DataStructuresTest.collection2" />
       </list>
     </recent_temporary>
   </component>
   <component name="TestHistory">
-    <history-entry file="DataStructuresTest - 2018.05.01 at 23h 24m 15s.xml">
-      <configuration name="DataStructuresTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DataStructuresTest_collection2 - 2018.05.01 at 23h 24m 22s.xml">
-      <configuration name="DataStructuresTest.collection2" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="DataStructuresTest - 2018.05.01 at 23h 24m 26s.xml">
       <configuration name="DataStructuresTest" configurationId="JUnit" />
     </history-entry>
@@ -719,16 +709,22 @@
     <history-entry file="DataStructuresTest_map1 - 2018.05.02 at 09h 44m 40s.xml">
       <configuration name="DataStructuresTest.map1" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="DataStructuresTest_(1) - 2018.05.02 at 10h 31m 57s.xml">
+      <configuration name="DataStructuresTest (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DataStructuresTest_ds2 - 2018.05.02 at 15h 44m 27s.xml">
+      <configuration name="DataStructuresTest.ds2" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="22" width="1040" height="1266" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Messages" order="7" visible="true" weight="0.3280142" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.3280142" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32978722" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32978722" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" weight="0.25510204" />
@@ -808,6 +804,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/25.0-jre/30ade485699e7782cc2369b0e5d3d8e0bfc317c/guava-25.0-jre-sources.jar!/com/google/common/collect/AbstractSetMultimap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1700">
+          <caret line="135" column="17" selection-start-line="135" selection-start-column="17" selection-end-line="135" selection-end-column="17" />
+          <folding>
+            <element signature="e#4245#4246#0" expanded="true" />
+            <element signature="e#4283#4284#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/25.0-jre/30ade485699e7782cc2369b0e5d3d8e0bfc317c/guava-25.0-jre-sources.jar!/com/google/common/collect/RangeMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-471">
+          <caret line="72" column="7" selection-start-line="72" selection-start-column="7" selection-end-line="72" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
@@ -817,8 +831,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/DataStructuresTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
-          <caret line="61" column="22" selection-start-line="61" selection-start-column="22" selection-end-line="61" selection-end-column="22" />
+        <state relative-caret-position="572">
+          <caret line="66" column="32" selection-start-line="66" selection-start-column="32" selection-end-line="66" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
