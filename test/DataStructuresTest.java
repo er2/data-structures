@@ -9,7 +9,7 @@ class DataStructuresTest {
 
    @Test
    void collection1() {
-      Collection<String> c = new HashSet<>();
+      Collection<String> c = null;
       c.add("");
       c.add("");
       assertEquals(1, c.size());
@@ -17,7 +17,7 @@ class DataStructuresTest {
 
    @Test
    void collection2() {
-      Collection<Integer> c = new TreeSet<>();
+      Collection<Integer> c = null;
       // add 10, 9, ..., 0
       for (int i = 10; i >= 0; i--) {
          c.add(i);
@@ -31,7 +31,7 @@ class DataStructuresTest {
 
    @Test
    void map1() {
-      Map<String, Integer> m = new TreeMap<>();
+      Map<String, Integer> m = null;
       m.put("A", 3);
       m.put("C", 1);
       m.put("B", 2);
@@ -43,7 +43,7 @@ class DataStructuresTest {
 
    @Test
    void map2() {
-      Map<String, Integer> m = new LinkedHashMap<>();
+      Map<String, Integer> m = null;
       m.put("A", 3);
       m.put("C", 2);
       m.put("B", 1);
@@ -55,18 +55,16 @@ class DataStructuresTest {
 
    @Test
    void ds1() {
-      Multiset<String> s = HashMultiset.create();
-      s.add("");
-      s.add("");
-      assertEquals(2, s.count(""));
+//      s.add("");
+//      s.add("");
+//      assertEquals(2, s.count(""));
    }
 
    @Test
    void ds2() {
-      RangeMap<String, String> votingLine = TreeRangeMap.create();
-      votingLine.put(Range.lessThan("M"), "Julie");
-      votingLine.put(Range.atLeast("M"), "Sarah");
-      assertEquals("Julie", votingLine.get("Brockman"));
-      assertEquals("Sarah", votingLine.get("Zzyzwicz"));
+//      votingLine.put(Range.lessThan("M"), "Julie");
+//      votingLine.put(Range.atLeast("M"), "Sarah");
+//      assertEquals("Julie", votingLine.get("Brockman"));
+//      assertEquals("Sarah", votingLine.get("Zzyzwicz"));
    }
 }
